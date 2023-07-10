@@ -22,7 +22,7 @@ declare global {
   namespace JSX {
     interface IntrinsicElements {
       // Element name
-      ['myorg-header']: CustomElement<
+      ['myorg-user']: CustomElement<
         CustomElementAttributes,
         CustomElementEvents
       >;

@@ -1,5 +1,5 @@
 {
-  "name": "@myorg/header",
+  "name": "@myorg/user",
   "version": "0.0.1",
   "type": "module",
   "main": "dist/index.js",
@@ -15,7 +15,7 @@
     "clean": "rm -rf dist node_modules"
   },
   "dependencies": {
-    "@myorg/event": "file:../../libs/event",
+    "@myorg/event": "file:../../../libs/event",
     "@preact/signals": "1.1.5",
     "preact": "10.16.0",
     "preact-custom-element": "4.2.1"

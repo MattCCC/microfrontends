@@ -8,4 +8,4 @@ if (app) {
 }
 
 // Register Micro Frontends
-import '@myorg/header';
+import '@myorg/user';

@@ -6,7 +6,7 @@ import './external-events';
 
 // Adjust element name & observed attributes here
 // It also requires change in the public/element.d.ts file
-const element = 'myorg-header';
+const element = 'myorg-user';
 const observedAttributes = ['brand', 'theme'];
 
 if (!window.customElements.get(element)) {

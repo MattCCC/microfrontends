@@ -17,7 +17,7 @@
     "baseUrl": ".",
     "paths": {
       "@myorg/my-app": ["apps/my-app/src/main.ts"],
-      "@myorg/header": ["apps/header/src/main.ts"],
+      "@myorg/user": ["apps/micro-fes/user/src/main.ts"],
       "@myorg/event": ["libs/event/src/index.ts"]
     }
   },

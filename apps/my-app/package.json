@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@myorg/event": "file:../../libs/event",
-    "@myorg/header": "file:../header",
+    "@myorg/user": "file:../micro-fes/user",
     "@preact/signals": "1.1.5",
     "preact": "10.16.0",
     "preact-custom-element": "4.2.1"

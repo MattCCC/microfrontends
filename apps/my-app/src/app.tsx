@@ -6,7 +6,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <myorg-header theme="light" brand="example"></myorg-header>
+      <myorg-user theme="light" brand="example"></myorg-user>
 
       <Login />
     </div>
