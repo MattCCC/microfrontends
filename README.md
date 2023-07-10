@@ -17,6 +17,12 @@ npm run install-all
 npm run build-all
 ```
 
+## run
+
+```typescript
+npx nx run my-app:dev
+```
+
 ## clean
 
 ```typescript

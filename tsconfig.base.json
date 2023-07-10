@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@myorg/header": ["apps/header/src/index.ts"],
+      "@myorg/my-app": ["apps/my-app/src/main.ts"],
+      "@myorg/header": ["apps/header/src/main.ts"],
       "@myorg/event": ["libs/event/src/index.ts"]
     }
   },

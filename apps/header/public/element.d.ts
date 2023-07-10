@@ -11,8 +11,8 @@ type CustomElement<Attributes = unknown, Events extends string> = Partial<
 // List of custom attributes that can be passed as a configuration to the microfrontend
 // All keys should be lowercase
 export type CustomElementAttributes = {
-  name: string;
-  isloggedin: boolean;
+  brand: string;
+  theme: string;
 };
 
 // List of custom events that can be emitted to orchestrator

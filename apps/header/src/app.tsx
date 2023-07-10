@@ -1,20 +1,20 @@
 import './styles/global.css';
 import { CustomElementAttributes } from '../public/element';
-import { isUserLoggedIn } from './signals/isLoggedIn';
+import { user } from './services/user';
 
 // Events passed as props are just an intial configuration
 // They can be changed externally & will trigger re-render
 export default function App({
-  name = '',
-  isloggedin = false,
+  brand = '',
+  theme = '',
 }: Partial<CustomElementAttributes>) {
-  console.log('Header loaded with attr: ', { name, isloggedin });
-  console.log('signal', isUserLoggedIn.value);
+  console.log('Header loaded with attr: ', { brand, theme }, user.value);
+  console.log('signal', user.value);
 
   return (
     <div className="header">
-      {isloggedin ? (
-        <h1 className="bg-red text-blue-300">Welcome {name}!</h1>
+      {user.value.isLoggedIn ? (
+        <h1 className="bg-red text-blue-300">Welcome {user.value.name}!</h1>
       ) : (
         <h1 className="bg-red text-blue-300">Welcome! Please log in</h1>
       )}
