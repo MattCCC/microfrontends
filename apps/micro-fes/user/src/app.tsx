@@ -1,5 +1,5 @@
 import './styles/global.css';
-import { CustomElementAttributes } from '../public/element';
+import type { CustomElementAttributes } from '../element';
 import { user } from './services/user/signals';
 
 // Events passed as props are just an intial configuration
