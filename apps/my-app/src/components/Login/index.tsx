@@ -1,17 +1,18 @@
 import { dispatch } from '@myorg/event';
 import { useCallback, useState } from 'react';
-// import { isUserLoggedIn2 } from '../../stores/user';
 
 export default function Login() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   console.log('Login loaded.');
 
   const onClickHandler = useCallback(() => {
-    dispatch('@myorg/login', {
+    const loggedInUserData = {
       name: 'John Doe',
       age: 50,
       isLoggedIn: true,
-    });
+    };
+
+    dispatch('@myorg/login', loggedInUserData);
 
     setIsLoggedIn(true);
   }, [setIsLoggedIn]);
