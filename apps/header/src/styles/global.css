@@ -1,0 +1,10 @@
+/* Example: this change won't work in the Micro-frontend */
+html {
+  background-color: red;
+}
+
+/* Following changes will work */
+
+.app {
+  background-color: red;
+}

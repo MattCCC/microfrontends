@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta https-equiv="Content-Security-Policy" content="default-src *;" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>Header Demo</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "preact": "https://unpkg.com/preact@10.6.6/dist/preact.module.js",
+          "preact/hooks": "https://unpkg.com/preact@10.6.6/hooks/dist/hooks.module.js",
+          "preact/compat": "https://unpkg.com/preact@10.6.6/compat/dist/compat.module.js"
+        }
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry, but the app doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      >
+    </noscript>
+    <myorg-header></myorg-header>
+  </body>
+</html>
