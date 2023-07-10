@@ -8,7 +8,7 @@ package
 *.tgz
 *.map
 *.ts
-!*.d.ts
+!/*.d.ts
 tsconfig.json
 .eslintrc.js
 
